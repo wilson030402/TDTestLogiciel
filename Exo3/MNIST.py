@@ -59,3 +59,4 @@ with torch.no_grad():
         total += target.size(0)
 
 print(f"Accuracy: {100 * correct / total:.2f}%")
+
